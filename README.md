@@ -12,7 +12,7 @@ Hungry Birds was originally a culminating project for my CS21b (Introduction to 
 I'll get around to fixing everything in the list above when I have time between developing my newer projects.
 
 # How to Run
-As this is pretty much unmaintained legacy software, it was primarily developed and tested using the BlueJay IDE. I've removed the .class and .ctxt files produced by running `javac Main.java` in order to reduce the clutter in the repository, so there's no real way of running it without compiling it (for now, anyway).
+As this is pretty much unmaintained legacy software, it was primarily developed and tested using the BlueJay IDE. I've removed the .class and .ctxt files produced from running `javac Main.java` in order to reduce the clutter in the repository, so there's no real way of running it without compiling it (for now, anyway).
 
 1. Download the file as a zip (There's a button to the right of this page) and unextract it.
 2. Launch your command prompt and navigate to the `hungry-birds` folder using `cd`.
