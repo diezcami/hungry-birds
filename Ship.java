@@ -39,7 +39,7 @@ public class Ship extends GameObject{
         
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("Bird1.png"));
+            image = ImageIO.read(new File("images/Bird1.png"));
         } catch (IOException e) {}
         
         g.drawImage( image, x, y, null );   

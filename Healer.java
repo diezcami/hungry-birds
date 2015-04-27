@@ -24,7 +24,7 @@ public class Healer extends GameObject {
         
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("Cross.png"));
+            image = ImageIO.read(new File("images/Cross.png"));
         } catch (IOException e) {}        
         g.drawImage( image, x, y, null );              
     }

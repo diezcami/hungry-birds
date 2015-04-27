@@ -24,7 +24,7 @@ public class Asteroid extends GameObject{
         
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("Cloud.png"));
+            image = ImageIO.read(new File("images/Cloud.png"));
         } catch (IOException e) {}
         
         g.drawImage( image, x, y, null );                    

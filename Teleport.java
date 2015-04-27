@@ -24,7 +24,7 @@ public class Teleport extends GameObject {
         
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("Heart.png"));
+            image = ImageIO.read(new File("images/Heart.png"));
         } catch (IOException e) {}        
         g.drawImage( image, x, y, null );          
     }

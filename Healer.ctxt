@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=type\ x\ y
-comment0.target=Healer(int,\ int,\ int)
-comment1.params=g
-comment1.target=void\ draw(java.awt.Graphics)
-comment2.params=
-comment2.target=java.awt.Rectangle\ getRectangle()
-numComments=3

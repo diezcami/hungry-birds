@@ -23,7 +23,7 @@ public class Bomb extends GameObject{
         
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File("Egg.png"));
+            image = ImageIO.read(new File("images/Egg.png"));
         } catch (IOException e) {}
         
         g.drawImage( image, x, y, null );   
