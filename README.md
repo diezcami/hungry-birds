@@ -24,7 +24,7 @@ Note that only the last step is needed to run the program after doing steps 1-3 
 # Game Mechanics
 Hungry Birds was originally supposed to be a two player game played over two computers, however I had difficulty grasping serialization to implement the networking functions as a new programmer when I made this game. With this, there are several mechanics that may not make sense when built as a single player game, as well as several that never made it to this page to begin with.
 
-The main objective of the game is to avoid dying to anything in the game, be it eggs, clouds or missiles from your hypothetical enemy. This will further be explained in the instructions below:
+The main objective of the game is to avoid dying to anything be it eggs, clouds or missiles from your hypothetical enemy. This will further be explained in the instructions below:
 * Move the bird forward with the `up` arrow key. To move in different directions, use the `left`, and `right` arrow keys. A yellow block appears in your former spot as soon as you move in any direction- this is your safe spot, where you become immune to everything that could harm you in the game.
 * Press the `space bar` to fire missiles that eliminate clouds and hypothetically damage your enemy.
 * Use the `down` arrow key to lay eggs or bombs which can be used to hypothetically kill your opponent. In this implementation, the eggs won't really be used for anything except to kill your own character.
