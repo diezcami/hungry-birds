@@ -1,15 +1,9 @@
 # About Hungry Birds
 <img src=https://github.com/diezcami/hungry-birds/blob/master/images/GameIcon.png width=100 height=100>
 
-Hungry Birds was originally a culminating project for my CS21b (Introduction to Programming II) course in March 2014. It's essentially the first program I developed and learned to love after a whole year of planning to shift out of Computer Science. As of April 2015, the code remains unedited and is therefore inclusive of rather unfortunate code practices including, but not limited to:
-* Importing whole libraries in Java
-* Global variables
-* A hybrid abstract/interface class that ended up never being used
-* Undocumented and redundant code
-* Game Mechanics that require networking support (wait for it..)
-* Lack of networking support
+Hungry Birds was originally a culminating project for my CS21b (Introduction to Programming II) course in March 2014. It's essentially the first program I developed and learned to love after a whole year of planning to shift out of Computer Science. As of May 2015, the code remains unedited and is therefore inclusive of rather unfortunate code practices including, as seen in the issues portion of this repository.
 
-I'll get around to fixing everything in the list above when I have time between developing my newer projects.
+I'll get around to fixing everything in the list above when I have time between developing my newer projects and learning other technologies. Stay tuned!
 
 # How to Run
 As this is pretty much unmaintained legacy software, it was primarily developed and tested using the BlueJay IDE. I've removed the .class and .ctxt files produced from running `javac Main.java` in order to reduce the clutter in the repository, so there's no real way of running it without compiling it (for now, anyway).
